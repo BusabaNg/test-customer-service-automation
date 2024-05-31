@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-customer-service-automation"
+version = "0.1.0"
+description = ""
+authors = ["Busaba <ng.busaba@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^1.30.4"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
